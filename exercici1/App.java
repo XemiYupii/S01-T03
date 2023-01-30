@@ -3,6 +3,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Iterator;
 import java.util.List;
+import java.util.Set;
 
 public class App {
 
@@ -28,7 +29,7 @@ public class App {
 		mesosAny.add(7, new Month ("Agost"));
 		System.out.println(mesosAny);
 		//Creem un HashSet e incluim els elements de l'ArrayList
-		HashSet <Month> mesosAny2 = new HashSet<>(mesosAny);
+		Set <Month> mesosAny2 = new HashSet<>(mesosAny);
 		//Intentem tornar a incluir el mes d'Agost i recorrem la llista amb un for each i amb un iterador
 		mesosAny2.add(new Month ("Agost"));
 		for (Month month : mesosAny2) {
