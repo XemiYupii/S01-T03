@@ -1,4 +1,4 @@
-package exercici3;
+package n1exercici3;
 
 import java.io.BufferedReader;
 import java.io.BufferedWriter;
